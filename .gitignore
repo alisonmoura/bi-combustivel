@@ -1,3 +1,4 @@
 .vscode
-datasets/*.csv
+/datasets/*
+!/datasets/datasets.zip
 output/

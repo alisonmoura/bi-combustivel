@@ -10,4 +10,6 @@ Projeto do Grupo 2 do Trabalho Prático da matéria Sistemas de Apoio à Desiç�
 
 ## Estrutura do Projeto
 
-`dados`: Pasta que contém o conjunto de dataset para o BI
+`datasets`: Pasta que contém o conjunto de dataset (.csv) para o BI. Por questões de otimização de armazenamento, todos os arquivos com extensão `.csv` são ingnorados pelo zip. Somente está sendo vercionado o arquivo `datasets.zip`
+
+`output`: Pasta onde os resultados são armazenados. É ignorado pelo Git.
