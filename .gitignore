@@ -1,4 +1,5 @@
 .vscode
 /datasets/*
 !/datasets/datasets.zip
-output/
+output/*
+!/output/etl.zip
