@@ -32,7 +32,7 @@ for f in all_filenames:
     data = pd.read_csv(f, encoding='utf-16', delimiter='\t')
     combined_csv = pd.concat([combined_csv, data])
 
-combined_csv = combined_csv.head(500)
+# combined_csv = combined_csv.head(500)
 
 combined_csv = preparer.prepare(combined_csv)
 
