@@ -33,7 +33,7 @@ python3 index.py
 
 `index.py`: arquivo principal que realiza o processo de ETL, pega todos os arquivos .csv da pasta `datasets` junta e limpa todos os dados em uma planilha única: `etl.csv`, que é armazenada na pasta `output`.
 
-`datasets`: Pasta que contém o conjunto de dataset (.csv) para o BI. Por questões de otimização de armazenamento, todos os arquivos com extensão `.csv` são ingnorados pelo git. Somente está sendo vercionado o arquivo `datasets.zip`
+`datas`: Pasta que contém o conjunto de dataset (.csv) para o BI. Por questões de otimização de armazenamento, todos os arquivos com extensão `.csv` são ingnorados pelo git. Somente está sendo vercionado o arquivo `datas.zip`
 
 `output`: Pasta onde os resultados são armazenados. Por questões de otimização de armazenamento, todos os arquivos com extensão `.csv` são ingnorados pelo git. Somente está sendo vercionado o arquivo `etl.zip`
 

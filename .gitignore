@@ -1,5 +1,8 @@
 .vscode
+/datas/*
+!/datas/datas.zip
 /datasets/*
 !/datasets/datasets.zip
 output/*
 !/output/etl.zip
+chunks_out/*
