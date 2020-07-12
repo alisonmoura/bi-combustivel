@@ -16,15 +16,17 @@ from keras.layers import Dense
 start = time.time()
 
 # Leitura dos dataset's (CSV)
-dataset1 = pd.read_csv('datasets/csv_output_etanol_DF.csv', delimiter=';')
-dataset2 = pd.read_csv('datasets/csv_output_etanol_GO.csv', delimiter=';')
+dataset1 = pd.read_csv('datasets/csv_outputMT_ETANOL.csv', delimiter=';')
+dataset2 = pd.read_csv('datasets/csv_outputMS_ETANOL.csv', delimiter=';')
+
+# print(dataset1.shape[0], dataset2.shape[0], min(dataset1.shape[0], dataset2.shape[0]))
 
 data1 = []
 data2 = []
 n_steps = 2
 
 # Extração do preço do combustível em um vetor 1-dimensional
-for i in range(dataset1.shape[0]):
+for i in range(min(dataset1.shape[0], dataset2.shape[0])):
     data1.append(dataset1.loc[i]['precovenda'])
     data2.append(dataset2.loc[i]['precovenda'])
 
