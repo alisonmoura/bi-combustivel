@@ -6,8 +6,8 @@ from scipy.stats import spearmanr
 start = time.time()
 
 # Leitura dos dataset's (CSV)
-dataset1 = pd.read_csv('datasets/csv_output_etanol_DF.csv', delimiter=';')
-dataset2 = pd.read_csv('datasets/csv_output_etanol_GO.csv', delimiter=';')
+dataset1 = pd.read_csv('datasets/csv_outputMS_ETANOL.csv', delimiter=';')
+dataset2 = pd.read_csv('datasets/csv_outputMT_ETANOL.csv', delimiter=';')
 
 data1 = []
 data2 = []
